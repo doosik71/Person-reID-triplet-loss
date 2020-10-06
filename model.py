@@ -14,14 +14,14 @@ def weights_init_kaiming(m):
         init.kaiming_normal(m.weight.data, a=0, mode='fan_out')
         init.constant(m.bias.data, 0.0)
     elif classname.find('BatchNorm1d') != -1:
-        init.normal(m.weight.data, 1.0, 0.02)
-        init.constant(m.bias.data, 0.0)
+        init.normal_(m.weight.data, 1.0, 0.02)
+        init.constant_(m.bias.data, 0.0)
 
 def weights_init_classifier(m):
     classname = m.__class__.__name__
     if classname.find('Linear') != -1:
-        init.normal(m.weight.data, std=0.001)
-        init.constant(m.bias.data, 0.0)
+        init.normal_(m.weight.data, std=0.001)
+        init.constant_(m.bias.data, 0.0)
 
 # Defines the new fc layer and classification layer
 # |--Linear--|--bn--|--relu--|--Linear--|
@@ -29,7 +29,7 @@ class ClassBlock(nn.Module):
     def __init__(self, input_dim, class_num, dropout=False, relu=False, num_bottleneck=512):
         super(ClassBlock, self).__init__()
         add_block = []
-        #add_block += [nn.Linear(input_dim, num_bottleneck)] 
+        #add_block += [nn.Linear(input_dim, num_bottleneck)]
         num_bottleneck=input_dim
         add_block += [nn.BatchNorm1d(num_bottleneck)]
         if relu:
@@ -89,7 +89,7 @@ class ft_net_dense(nn.Module):
         model_ft.features.avgpool = nn.AdaptiveAvgPool2d((1,1))
         model_ft.fc = nn.Sequential()
         self.model = model_ft
-        # For DenseNet, the feature dim is 1024 
+        # For DenseNet, the feature dim is 1024
         self.classifier = ClassBlock(1024, class_num)
 
     def forward(self, x):
@@ -97,7 +97,7 @@ class ft_net_dense(nn.Module):
         x = torch.squeeze(x)
         x = self.classifier(x)
         return x
-    
+
 # Define the ResNet50-based Model (Middle-Concat)
 # In the spirit of "The Devil is in the Middle: Exploiting Mid-level Representations for Cross-Domain Instance Matching." Yu, Qian, et al. arXiv:1711.08106 (2017).
 class ft_net_middle(nn.Module):
@@ -151,7 +151,7 @@ class PCB(nn.Module):
         x = self.model.bn1(x)
         x = self.model.relu(x)
         x = self.model.maxpool(x)
-        
+
         x = self.model.layer1(x)
         x = self.model.layer2(x)
         x = self.model.layer3(x)
