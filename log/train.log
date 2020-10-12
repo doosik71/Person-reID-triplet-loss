@@ -1,0 +1,427 @@
+D:\doosik\2020\dev\python\Person-reID-triplet-loss> python train_new.py --gpu_ids 0 --name ft_ResNet50 --train_all --batchsize 32 --erasing_p 0.5 --data_dir D:\doosik\2020\dev\cpp\deep-reid\var\data\market1501\Market-1501-v15.09.15\pytorch
+Start...
+Using GPU...
+Start training...
+Epoch 0/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.4552 Reg: 0.0000 Acc: 0.0087 MeanMargin: -0.1545
+
+Epoch 1/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.4208 Reg: 0.0000 Acc: 0.0129 MeanMargin: -0.1198
+
+Epoch 2/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.4033 Reg: 0.0000 Acc: 0.0159 MeanMargin: -0.1021
+
+Epoch 3/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.3854 Reg: 0.0000 Acc: 0.0207 MeanMargin: -0.0836
+
+Epoch 4/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.3710 Reg: 0.0000 Acc: 0.0230 MeanMargin: -0.0693
+
+Epoch 5/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.3587 Reg: 0.0000 Acc: 0.0264 MeanMargin: -0.0566
+
+Epoch 6/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.3470 Reg: 0.0000 Acc: 0.0302 MeanMargin: -0.0446
+
+Epoch 7/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.3348 Reg: 0.0000 Acc: 0.0370 MeanMargin: -0.0319
+
+Epoch 8/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.3236 Reg: 0.0000 Acc: 0.0429 MeanMargin: -0.0202
+
+Epoch 9/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.3139 Reg: 0.0000 Acc: 0.0472 MeanMargin: -0.0104
+
+Epoch 10/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.3024 Reg: 0.0000 Acc: 0.0546 MeanMargin: 0.0018
+
+Epoch 11/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2964 Reg: 0.0000 Acc: 0.0563 MeanMargin: 0.0081
+
+Epoch 12/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2862 Reg: 0.0000 Acc: 0.0619 MeanMargin: 0.0187
+
+Epoch 13/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2763 Reg: 0.0000 Acc: 0.0716 MeanMargin: 0.0293
+
+Epoch 14/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2680 Reg: 0.0000 Acc: 0.0776 MeanMargin: 0.0382
+
+Epoch 15/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2622 Reg: 0.0000 Acc: 0.0820 MeanMargin: 0.0445
+
+Epoch 16/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2536 Reg: 0.0000 Acc: 0.0934 MeanMargin: 0.0545
+
+Epoch 17/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2476 Reg: 0.0000 Acc: 0.0992 MeanMargin: 0.0605
+
+Epoch 18/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2459 Reg: 0.0000 Acc: 0.1023 MeanMargin: 0.0624
+
+Epoch 19/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2382 Reg: 0.0000 Acc: 0.1080 MeanMargin: 0.0709
+
+Epoch 20/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2314 Reg: 0.0000 Acc: 0.1125 MeanMargin: 0.0784
+
+Epoch 21/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2252 Reg: 0.0000 Acc: 0.1204 MeanMargin: 0.0849
+
+Epoch 22/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2224 Reg: 0.0000 Acc: 0.1276 MeanMargin: 0.0886
+
+Epoch 23/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2156 Reg: 0.0000 Acc: 0.1341 MeanMargin: 0.0960
+
+Epoch 24/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2095 Reg: 0.0000 Acc: 0.1381 MeanMargin: 0.1024
+
+Epoch 25/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2055 Reg: 0.0000 Acc: 0.1491 MeanMargin: 0.1069
+
+Epoch 26/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.2012 Reg: 0.0000 Acc: 0.1498 MeanMargin: 0.1119
+
+Epoch 27/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1945 Reg: 0.0000 Acc: 0.1615 MeanMargin: 0.1197
+
+Epoch 28/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1913 Reg: 0.0000 Acc: 0.1726 MeanMargin: 0.1235
+
+Epoch 29/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1864 Reg: 0.0000 Acc: 0.1791 MeanMargin: 0.1296
+
+Epoch 30/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1817 Reg: 0.0000 Acc: 0.1879 MeanMargin: 0.1352
+
+Epoch 31/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1792 Reg: 0.0000 Acc: 0.1883 MeanMargin: 0.1383
+
+Epoch 32/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1768 Reg: 0.0000 Acc: 0.1972 MeanMargin: 0.1412
+
+Epoch 33/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1712 Reg: 0.0000 Acc: 0.2114 MeanMargin: 0.1479
+
+Epoch 34/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1699 Reg: 0.0000 Acc: 0.2087 MeanMargin: 0.1492
+
+Epoch 35/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1638 Reg: 0.0000 Acc: 0.2195 MeanMargin: 0.1560
+
+Epoch 36/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1599 Reg: 0.0000 Acc: 0.2287 MeanMargin: 0.1609
+
+Epoch 37/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1577 Reg: 0.0000 Acc: 0.2297 MeanMargin: 0.1636
+
+Epoch 38/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1554 Reg: 0.0000 Acc: 0.2361 MeanMargin: 0.1670
+
+Epoch 39/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1524 Reg: 0.0000 Acc: 0.2478 MeanMargin: 0.1698
+
+Epoch 40/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1521 Reg: 0.0000 Acc: 0.2556 MeanMargin: 0.1718
+
+Epoch 41/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1483 Reg: 0.0000 Acc: 0.2588 MeanMargin: 0.1763
+
+Epoch 42/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1415 Reg: 0.0000 Acc: 0.2711 MeanMargin: 0.1842
+
+Epoch 43/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1406 Reg: 0.0000 Acc: 0.2758 MeanMargin: 0.1853
+
+Epoch 44/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1380 Reg: 0.0000 Acc: 0.2765 MeanMargin: 0.1879
+
+Epoch 45/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1360 Reg: 0.0000 Acc: 0.2837 MeanMargin: 0.1913
+
+Epoch 46/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1332 Reg: 0.0000 Acc: 0.2929 MeanMargin: 0.1949
+
+Epoch 47/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1330 Reg: 0.0000 Acc: 0.2994 MeanMargin: 0.1960
+
+Epoch 48/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1278 Reg: 0.0000 Acc: 0.3111 MeanMargin: 0.2024
+
+Epoch 49/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1243 Reg: 0.0000 Acc: 0.3158 MeanMargin: 0.2061
+
+Epoch 50/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1240 Reg: 0.0000 Acc: 0.3178 MeanMargin: 0.2067
+
+Epoch 51/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1214 Reg: 0.0000 Acc: 0.3252 MeanMargin: 0.2104
+
+Epoch 52/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1177 Reg: 0.0000 Acc: 0.3345 MeanMargin: 0.2150
+
+Epoch 53/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1167 Reg: 0.0000 Acc: 0.3411 MeanMargin: 0.2178
+
+Epoch 54/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1156 Reg: 0.0000 Acc: 0.3356 MeanMargin: 0.2180
+
+Epoch 55/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1136 Reg: 0.0000 Acc: 0.3459 MeanMargin: 0.2207
+
+Epoch 56/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1122 Reg: 0.0000 Acc: 0.3527 MeanMargin: 0.2231
+
+Epoch 57/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1095 Reg: 0.0000 Acc: 0.3638 MeanMargin: 0.2268
+
+Epoch 58/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1087 Reg: 0.0000 Acc: 0.3686 MeanMargin: 0.2290
+
+Epoch 59/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1072 Reg: 0.0000 Acc: 0.3713 MeanMargin: 0.2304
+
+Epoch 60/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1037 Reg: 0.0000 Acc: 0.3817 MeanMargin: 0.2351
+
+Epoch 61/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1024 Reg: 0.0000 Acc: 0.3835 MeanMargin: 0.2367
+
+Epoch 62/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.1004 Reg: 0.0000 Acc: 0.3926 MeanMargin: 0.2397
+
+Epoch 63/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.0995 Reg: 0.0000 Acc: 0.3963 MeanMargin: 0.2410
+
+Epoch 64/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.0978 Reg: 0.0000 Acc: 0.4001 MeanMargin: 0.2426
+
+Epoch 65/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.0952 Reg: 0.0000 Acc: 0.4108 MeanMargin: 0.2472
+
+Epoch 66/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.0945 Reg: 0.0000 Acc: 0.4103 MeanMargin: 0.2474
+
+Epoch 67/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.0936 Reg: 0.0000 Acc: 0.4157 MeanMargin: 0.2497
+
+Epoch 68/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.0919 Reg: 0.0000 Acc: 0.4209 MeanMargin: 0.2526
+
+Epoch 69/69
+----------
+batch = 405
+now_margin: 0.3000
+train Loss: 0.0898 Reg: 0.0000 Acc: 0.4244 MeanMargin: 0.2546
+
+Training complete in 629m 10s
+End training...
+End...
